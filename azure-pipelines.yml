@@ -53,7 +53,7 @@ stages:
       environment: 'spike.default'
     variables:
     - group: Release
-    strategy:
+    strategy: 
       runOnce:
         deploy:
           steps:
